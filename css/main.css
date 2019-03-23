@@ -1,0 +1,154 @@
+/*!project-file main css for codelou project William Spencer*/
+
+/*  Document =======================================================*/
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Times New Roman', Georgia, serif;
+}
+
+/* Sticky h2 stays at top left of page during scrolling.  
+Text is centered within the 300px wide box*/
+
+h2 {
+  margin: 1rem 0 0;
+  text-align: center; 
+  width: 300px;
+  background-color: #3333cc;
+  color: #99ffcc;
+  justify-content: center;
+}
+
+header {
+  padding-top: .8em;
+  padding-bottom: 1em;
+  background: #ccccff;
+}
+
+.pretty {
+  padding-top: 2em;
+}
+
+/*-- Image layout -- */
+.pics {
+  display: inline;
+}
+
+.flock  {
+  max-width: 500px;
+  background-color:  #00ccff;
+  display: inline-block; 
+}
+.soul {
+  max-width: 240px;
+  background-color: #ffcc00;
+  border-radius: .6em; 
+  display: inline-block; 
+}
+
+.verticalright {    /*Verticle Navbar on the right hand side of the page*/
+  display: inline-block;
+  align-self: flex-start;
+  padding-top: -4rem;
+}
+
+.container {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h1 {
+  color: red;
+  background-color: #ffffcc;
+  width: 350px;
+  margin: 0 auto;
+}
+
+
+.bdy { /*joins several divs with a background color*/
+  background-color: #ffffcc;
+}
+.ltgn {
+  background-color: #ccffff;
+  padding-bottom: 1.5rem;
+}
+
+.ltgn h4 {
+  padding-top: 2rem;
+}
+
+
+.pressbtn {
+  margin-top: 30px;
+  background-color: #ffcc99;
+  padding: 30px 30px 50px;
+  max-width: 700px;
+}
+
+#pbtn h3 {     /*  This is the button that will activate the modal */
+  text-size: 4em;
+  margin: auto;
+  padding-top: 10px;
+  width: 280px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+}
+
+.questions {
+  max-width: 350px;
+  margin: 0 auto;
+  align: center;
+}
+
+.qstns  {
+  background-color: #ccffff;
+}
+
+/*--------- Modals ------------*/
+
+.bkg-popup {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.popup {
+  width: 350px;
+  height: 200px;
+  background: #009900;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 40px;
+  font-weight: bolder;
+  transform: rotate(45deg);
+}
+
+.main-footer {
+  text-align: center;
+  border-color: red;
+  padding: 2em 0;
+  background: #cc9900;
+}
+
+
