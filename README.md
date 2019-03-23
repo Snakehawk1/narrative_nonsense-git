@@ -1,4 +1,5 @@
-# codelou-git
+# narrative_nonsense-git
+
 Greetings, and thanks for checking out William Spencer's
 Narrative Nonsense project.  Out of interest in world events I 
 thought it would be engaging to create my first website for 
