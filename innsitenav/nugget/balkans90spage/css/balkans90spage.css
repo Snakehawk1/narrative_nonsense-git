@@ -1,0 +1,27 @@
+/*Styleing the about page 'jtfp.css' */
+
+* {
+  background: #ccccff;
+  width: 95%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+    margin: 5rem 0 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+h2, h3  {
+  text-align: center;
+
+}
+
+.balkans90s {
+  border: 4px solid red;
+  margin: 50px auto;
+ 
+
+}
