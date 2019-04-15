@@ -125,15 +125,17 @@ h1 {
 }
 
 .popup {
-  width: 350px;
-  height: 200px;
-  background: #009900;
+  width: 450px;
+  height: 470px;
+  background: orange;
+  color: white;
   border-radius: 8px;
   text-align: center;
   margin: auto;
-  padding: 20px;
+  padding: 40px 20px 20px;
   position: relative;
 }
+
 
 .close {
   position: absolute;
@@ -143,6 +145,7 @@ h1 {
   font-weight: bolder;
   transform: rotate(45deg);
 }
+
 
 .main-footer {
   text-align: center;

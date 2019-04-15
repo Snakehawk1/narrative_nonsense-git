@@ -1,7 +1,7 @@
-/*Styleing the about page 'ab.css' */
+/*Styleing the about page 'about.css' */
 
 * {
-  background: #ccccff;
+  background: #ffff99;
   width: 95%;
   max-width: 1000px;
   margin-right: auto;
@@ -9,7 +9,7 @@
 }
 
 h1 {
-    margin-top: 10rem;
+    margin-top: 5rem;
   justify-content: center;
   text-align: center;
 }
